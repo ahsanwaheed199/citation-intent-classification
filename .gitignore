@@ -3,3 +3,7 @@ venv/
 __pycache__/
 *.pkl
 .ipynb_checkpoints/
+acl-arc/
+scicite/
+soft/
+scicite_data.tar.gz

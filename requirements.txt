@@ -1,0 +1,16 @@
+# Core ML / data
+scikit-learn      # TF-IDF, Naive Bayes, Logistic Regression, metrics
+numpy
+pandas
+
+# SciBERT embeddings
+torch             # PyTorch backend
+transformers      # Hugging Face, loads SciBERT
+
+# LLM prompting
+openai            # client for the LiteLLM proxy (OpenAI-compatible API)
+python-dotenv     # loads API keys from .env
+
+# Notebooks
+jupyter
+notebook
