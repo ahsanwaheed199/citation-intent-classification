@@ -1,0 +1,40 @@
+{
+  "model": "TF-IDF + Naive Bayes",
+  "dev_accuracy": 0.7445414847161572,
+  "dev_f1": 0.6640805073063137,
+  "train_accuracy": 0.7771442436006308,
+  "train_f1": 0.7028620670431507,
+  "classification_report": {
+    "background": {
+      "precision": 0.7317436661698957,
+      "recall": 0.912639405204461,
+      "f1-score": 0.8122415219189413,
+      "support": 538.0
+    },
+    "method": {
+      "precision": 0.7461139896373057,
+      "recall": 0.5647058823529412,
+      "f1-score": 0.6428571428571429,
+      "support": 255.0
+    },
+    "result": {
+      "precision": 0.9038461538461539,
+      "recall": 0.3821138211382114,
+      "f1-score": 0.5371428571428571,
+      "support": 123.0
+    },
+    "accuracy": 0.7445414847161572,
+    "macro avg": {
+      "precision": 0.7939012698844518,
+      "recall": 0.6198197028985378,
+      "f1-score": 0.6640805073063137,
+      "support": 916.0
+    },
+    "weighted avg": {
+      "precision": 0.7588539701746656,
+      "recall": 0.7445414847161572,
+      "f1-score": 0.7281474690497087,
+      "support": 916.0
+    }
+  }
+}

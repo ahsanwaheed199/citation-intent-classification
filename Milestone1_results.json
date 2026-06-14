@@ -1,0 +1,22 @@
+{
+  "TF-IDF + Naive Bayes": {
+    "accuracy": 0.7445,
+    "f1": 0.6641,
+    "approach": "Simple baseline"
+  },
+  "SciBERT + Logistic Regression": {
+    "accuracy": 0.8242,
+    "f1": 0.7973,
+    "approach": "Fine-tuned encoder"
+  },
+  "LLM Zero-shot": {
+    "accuracy": 0.6747,
+    "f1": 0.6576,
+    "approach": "LLM prompting (basic)"
+  },
+  "LLM Few-shot": {
+    "accuracy": 0.7325,
+    "f1": 0.6959,
+    "approach": "LLM prompting (with examples)"
+  }
+}
