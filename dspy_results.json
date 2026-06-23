@@ -1,0 +1,16 @@
+{
+  "baseline": {
+    "accuracy": 0.72,
+    "macro_f1": 0.6498
+  },
+  "bootstrap_fewshot": {
+    "accuracy": 0.665,
+    "macro_f1": 0.6472
+  },
+  "miprov2": {
+    "accuracy": 0.735,
+    "macro_f1": 0.6781
+  },
+  "eval_examples": 200,
+  "taxonomy": "SciCite"
+}

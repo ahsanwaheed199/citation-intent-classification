@@ -1,0 +1,46 @@
+{
+  "traces": [],
+  "train": [],
+  "demos": [
+    {
+      "augmented": true,
+      "citation_text": "It is hypothesized, however, that its pathogenesis is complex and it is based on the interactions between the genetic factors and other various factors (colonic structure, intestinal motility and diet) as well as all of these individual factors [4].",
+      "label": "background"
+    },
+    {
+      "augmented": true,
+      "citation_text": "In mammalian cells, cyclin D–CDK4/6 and cyclin E–CDK2 complexes are required to promote cell cycle entrance from quiescence, progression through theG1phase and transition fromG1 into S phase in response to mitogenic stimulation (Pardee, 1989; Malumbres and Barbacid, 2001; Chulu and Liu, 2009).",
+      "label": "background"
+    },
+    {
+      "augmented": true,
+      "citation_text": "The dominant frequencies closely matched those predicted by Abdullah (1966) for the radial modes of vibration of vortices.",
+      "label": "result"
+    },
+    {
+      "citation_text": "[10] observed that low-voltage ES was not effective on tenderness improvement in Cabrito carcasses but underlined that high-voltage ES was effective on tenderness at 1–3 days of postmortem.",
+      "label": "background"
+    }
+  ],
+  "signature": {
+    "instructions": "Given a sentence excerpted from a scientific paper, classify its rhetorical function into one of the following three categories: 'background', 'method', or 'result'. Output only the predicted label.",
+    "fields": [
+      {
+        "prefix": "Citation Text:",
+        "description": "The sentence containing the citation"
+      },
+      {
+        "prefix": "Label:",
+        "description": "The citation's intent: background, method, or result"
+      }
+    ]
+  },
+  "lm": null,
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.10",
+      "dspy": "3.2.1",
+      "cloudpickle": "3.1"
+    }
+  }
+}
